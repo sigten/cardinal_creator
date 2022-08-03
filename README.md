@@ -1,4 +1,4 @@
-# Start coding
+# Run the App
 * Start the native app: `cargo run`
 * Start the web build: `trunk serve`
     * requires [trunk]: `cargo install --locked trunk`
