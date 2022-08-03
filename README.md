@@ -22,5 +22,5 @@ Audio in web-builds can have issues in some browsers. This seems to be a general
 # License
 
 * This work is dual licensed under either of following at your option:
-    * [MIT License](credits/licenses/LICENSE-MIT.md)
-    * [Apache License, Version 2.0](credits/licenses/LICENSE-APACHE.md)
+    * [MIT License](LICENSE-MIT.md)
+    * [Apache License, Version 2.0](LICENSE-APACHE.md)
