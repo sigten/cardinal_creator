@@ -17,7 +17,7 @@ To deploy newer versions, just run the `deploy-github-page` workflow again.
 
 # Known issues
 
-Audio in web-builds can have issues in some browsers. This seems to be a general performance issue and not due to the audio itself (see [bevy_kira_audio/#9][firefox-sound-issue]).
+Audio in web-builds can have issues in some browsers. This seems to be a general performance issue and not due to the audio itself.
 
 # License
 
