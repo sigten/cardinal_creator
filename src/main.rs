@@ -3,7 +3,7 @@
 
 use bevy::prelude::{App, ClearColor, Color, Msaa, WindowDescriptor};
 use bevy::DefaultPlugins;
-use bevy_game::GamePlugin;
+use cardinal_creator::CardinalCreatorPlugin;
 
 fn main() {
     App::new()
@@ -12,10 +12,10 @@ fn main() {
         .insert_resource(WindowDescriptor {
             width: 800.,
             height: 600.,
-            title: "Bevy game".to_string(), // ToDo
+            title: "Cardinal Creator".to_string(),
             ..Default::default()
         })
         .add_plugins(DefaultPlugins)
-        .add_plugin(GamePlugin)
+        .add_plugin(CardinalCreatorPlugin)
         .run();
 }
