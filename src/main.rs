@@ -3,6 +3,7 @@
 
 use bevy::prelude::{App, ClearColor, Color, Msaa, WindowDescriptor};
 use bevy::DefaultPlugins;
+
 use cardinal_creator::CardinalCreatorPlugin;
 
 fn main() {

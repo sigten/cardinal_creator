@@ -1,6 +1,6 @@
-use bevy::prelude::*;
 #[cfg(debug_assertions)]
 use bevy::diagnostic::{FrameTimeDiagnosticsPlugin, LogDiagnosticsPlugin};
+use bevy::prelude::*;
 
 #[derive(Debug, Clone, Eq, PartialEq, Hash)]
 enum GameState {
