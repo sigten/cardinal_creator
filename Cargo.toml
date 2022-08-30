@@ -25,6 +25,8 @@ dev = [
 [dependencies]
 bevy = { version = "0.8", default-features = false, features = ["bevy_asset", "bevy_winit", "render", "png", "x11"] }
 bevy_common_assets = { version = "0.3", features = ["ron"] }
+bevy_pancam = "0.5"
+serde = "1.0"
 
 [build-dependencies]
 embed-resource = "1.4"
