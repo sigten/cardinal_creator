@@ -54,9 +54,9 @@ pub fn load_config(asset_server: Res<AssetServer>, mut configs: ResMut<ConfigHan
 pub fn check_config_loaded(
     mut state: ResMut<State<AppState>>,
     asset_server: Res<AssetServer>,
-    assets: Res<ConfigHandles>,
+    handles: Res<ConfigHandles>,
 ) {
-    match asset_server.get_group_load_state(assets.0.iter().map(|h| h.id)) {
+    match asset_server.get_group_load_state(handles.0.iter().map(|h| h.id)) {
         LoadState::Loaded => state.set(AppState::Menu).unwrap(),
         _ => (),
     }
