@@ -6,4 +6,4 @@
 * [Bevy Pancam](https://github.com/johanhelsing/bevy_pancam): [MIT License](licenses/LICENSE-MIT.md)/[Apache License, Version 2.0](licenses/LICENSE-APACHE.md)
 
 ## Assets
-
+* FiraMono-Medium Font: [SIL Open Font License](licenses/LICENSE-SIL_OPEN_FONT_LICENSE.md)

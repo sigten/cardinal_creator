@@ -7,8 +7,8 @@ use game_config::{check_config_loaded, load_config, ConfigHandles, GameConfig};
 
 use crate::AppState;
 
-mod camera;
-mod game_config;
+pub mod camera;
+pub mod game_config;
 
 pub struct InitPlugin;
 

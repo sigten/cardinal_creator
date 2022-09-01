@@ -3,9 +3,11 @@ use bevy::diagnostic::{FrameTimeDiagnosticsPlugin, LogDiagnosticsPlugin};
 use bevy::{prelude::*, render::texture::ImageSettings};
 
 use init::InitPlugin;
+use menu::MenuPlugin;
 
-pub mod game_list;
-pub mod init;
+mod game_list;
+mod init;
+mod menu;
 
 #[derive(Debug, Clone, Eq, PartialEq, Hash)]
 pub enum AppState {
@@ -23,6 +25,7 @@ impl Plugin for CardinalCreatorPlugin {
     fn build(&self, app: &mut App) {
         app.add_state(AppState::Init)
             .add_plugin(InitPlugin)
+            .add_plugin(MenuPlugin)
             .insert_resource(ImageSettings::default_nearest());
 
         #[cfg(debug_assertions)]

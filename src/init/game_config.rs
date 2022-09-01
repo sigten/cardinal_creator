@@ -20,11 +20,11 @@ pub struct GameConfig {
     pub objective: GameObjective,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Default, Deserialize, Clone, Copy)]
 pub struct ButtonColor {
-    hovered: [f32; 4],
-    clicked: [f32; 4],
-    none: [f32; 4],
+    pub hovered: Color,
+    pub clicked: Color,
+    pub none: Color,
 }
 
 #[non_exhaustive]
