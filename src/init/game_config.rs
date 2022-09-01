@@ -11,6 +11,7 @@ pub struct GameConfig {
     pub name: String,
     pub path: String,
     pub button_color: Option<ButtonColor>,
+    pub button_text_color: Option<Color>,
     pub sprite_width: f32,
     pub sprite_height: f32,
     pub map_width: u16,
