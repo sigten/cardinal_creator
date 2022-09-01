@@ -38,11 +38,12 @@ pub fn load_menu(
     for handle in &game_handles.0 {
         let config = game_configs.get(handle).unwrap();
 
+        //default color option for buttons
         let mut menu_button = MenuButton {
             text_color: Color::WHITE,
             buttons: ButtonColor {
-                hovered: Color::rgb(0.25, 0.25, 0.25),
-                clicked: Color::rgb(0.35, 0.75, 0.35),
+                hovered: Color::ORANGE_RED,
+                clicked: Color::PURPLE,
                 none: Color::RED,
             },
             game: handle.clone(),
